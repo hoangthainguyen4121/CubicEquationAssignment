@@ -1,0 +1,36 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.0.31903.59
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "src", "src", "{BAF2A015-C9A0-46FA-A80A-479A36133C56}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CubicEquationApp", "src\CubicEquationApp\CubicEquationApp.csproj", "{2A5A1FDF-E5A5-49A4-8EF6-3C2EAC249761}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "tests", "tests", "{D40E0021-AC21-4C56-B7E7-317332EE16C2}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CubicEquationApp.Tests", "tests\CubicEquationApp.Tests\CubicEquationApp.Tests.csproj", "{3F318B55-6096-4191-860B-2CAB8A455935}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{2A5A1FDF-E5A5-49A4-8EF6-3C2EAC249761}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{2A5A1FDF-E5A5-49A4-8EF6-3C2EAC249761}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{2A5A1FDF-E5A5-49A4-8EF6-3C2EAC249761}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{2A5A1FDF-E5A5-49A4-8EF6-3C2EAC249761}.Release|Any CPU.Build.0 = Release|Any CPU
+		{3F318B55-6096-4191-860B-2CAB8A455935}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{3F318B55-6096-4191-860B-2CAB8A455935}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{3F318B55-6096-4191-860B-2CAB8A455935}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{3F318B55-6096-4191-860B-2CAB8A455935}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{2A5A1FDF-E5A5-49A4-8EF6-3C2EAC249761} = {BAF2A015-C9A0-46FA-A80A-479A36133C56}
+		{3F318B55-6096-4191-860B-2CAB8A455935} = {D40E0021-AC21-4C56-B7E7-317332EE16C2}
+	EndGlobalSection
+EndGlobal
